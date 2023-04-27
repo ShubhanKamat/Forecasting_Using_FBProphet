@@ -1,0 +1,14 @@
+numpy
+pandas
+streamlit
+matplotlib
+scipy
+pandas_datareader
+datetime
+yfinance
+scipy
+quandl
+fbprophet
+plotly
+pillow
+-e .
