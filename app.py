@@ -6,6 +6,10 @@ package = 'fbprophet'
 subprocess.check_call(['pip', 'install', 'numpy'])
 subprocess.check_call(['pip', 'install', 'pandas'])
 subprocess.check_call(['pip', 'install', 'convertdate'])
+subprocess.check_call(['pip', 'install', 'lunarcalendar'])
+subprocess.check_call(['pip', 'install', 'pystan'])
+subprocess.check_call(['pip', 'install', 'holidays'])
+
 
 # Run the pip command to install the package
 subprocess.check_call(['pip', 'install', package])
