@@ -9,7 +9,7 @@ def get_requirements(file_path: str) -> List[str]:
     :param file_path: A string representing the file path of the requirements file.
     :return: A list of strings representing the requirements.
     '''
-    requirements = []
+    requirements = ['fbprophet','numpy',]
     with open(file_path) as file_obj:
         requirements = file_obj.readlines()  # Read the requirements from the file
         requirements = [req.replace("\n", "") for req in requirements]  # Remove the new line character from the requirements
