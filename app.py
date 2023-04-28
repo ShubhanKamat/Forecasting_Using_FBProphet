@@ -1,8 +1,5 @@
 # importing the necessary modules and libraries
 import subprocess
-
-# Define the package you want to install
-package = 'fbprophet'
 subprocess.check_call(['pip', 'install', 'numpy'])
 subprocess.check_call(['pip', 'install', 'pandas'])
 subprocess.check_call(['pip', 'install', 'convertdate'])
@@ -10,10 +7,7 @@ subprocess.check_call(['pip', 'install', 'lunarcalendar'])
 subprocess.check_call(['pip', 'install', 'pystan'])
 subprocess.check_call(['pip', 'install', 'holidays'])
 subprocess.check_call(['pip', 'install', 'tqdm'])
-
-
-# Run the pip command to install the package
-subprocess.check_call(['pip', 'install', package])
+subprocess.check_call(['pip', 'install', 'fbprophet'])
 
 import sys
 import streamlit as st
