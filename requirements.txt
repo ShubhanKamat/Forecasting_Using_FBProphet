@@ -5,11 +5,12 @@ matplotlib
 scipy
 pandas_datareader
 datetime
-pystan==2.19.1.1
-prophet==1.0.1
-yfinance
-scipy
+pystan
+convertdate
+lunarcalendar
+holidays
 fbprophet
+yfinance
 plotly
 pillow
 -e .
