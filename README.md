@@ -1,9 +1,11 @@
 Stock Forecasting using FBProphet
+
 This repository contains Python code that uses the fbprophet library to forecast the stock prices of a selected company using its historical data. 
 The user can select the stock ticker, start date, and end date, and the program will load the stock data from Yahoo Finance, train a Prophet model 
 on the data, and generate a forecast for a specified number of years.
 
 Dependencies
+
 The following dependencies are required to run this code:
 
 streamlit
