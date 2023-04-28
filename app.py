@@ -1,5 +1,12 @@
 # importing the necessary modules and libraries
-pip install fbprophet
+import subprocess
+
+# Define the package you want to install
+package = 'fbprophet'
+
+# Run the pip command to install the package
+subprocess.check_call(['pip', 'install', package])
+
 import sys
 import streamlit as st
 from datetime import date
