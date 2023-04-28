@@ -1,4 +1,5 @@
 # importing the necessary modules and libraries
+pip install fbprophet
 import sys
 import streamlit as st
 from datetime import date
