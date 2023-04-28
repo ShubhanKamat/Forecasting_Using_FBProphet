@@ -1,4 +1,4 @@
-subprocess
+--upgrade pip
 numpy
 pandas
 streamlit
