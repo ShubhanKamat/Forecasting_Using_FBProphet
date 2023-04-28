@@ -9,6 +9,7 @@ subprocess.check_call(['pip', 'install', 'convertdate'])
 subprocess.check_call(['pip', 'install', 'lunarcalendar'])
 subprocess.check_call(['pip', 'install', 'pystan'])
 subprocess.check_call(['pip', 'install', 'holidays'])
+subprocess.check_call(['pip', 'install', 'tqdm'])
 
 
 # Run the pip command to install the package
