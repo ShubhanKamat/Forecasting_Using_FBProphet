@@ -5,6 +5,12 @@ matplotlib
 scipy
 pandas_datareader
 datetime
+pystan
+convertdate
+lunarcalendar
+holidays
+tqdm
+fbprophet
 yfinance
 plotly
 pillow
