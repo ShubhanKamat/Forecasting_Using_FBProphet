@@ -16,12 +16,14 @@ These dependencies can be installed using pip by running the following command:
 pip install -r requirements.txt
 
 Input
+
 Stock Ticker: The user must input the stock ticker symbol for the company they wish to forecast. For example, AAPL for Apple Inc.
 Start Date: The user must select the start date of the historical data they wish to use for training the model.
 End Date: The user must select the end date of the historical data they wish to use for training the model.
 Forecast Years: The user must select the number of years they wish to forecast the stock price for.
 
 Output
+
 The program will output the following:
 Raw Data: The program will display a small portion of the loaded data, both for the first few days after the start date and the last few days before the end date.
 Data Plot: The program will display a plot of the loaded data, including both the open and close prices of the stock.
